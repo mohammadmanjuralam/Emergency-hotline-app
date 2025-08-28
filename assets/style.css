@@ -1,0 +1,16 @@
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+/* madurai font */
+.hind-madurai-semibold {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#comment {
+  background-color: rgb(238, 238, 238);
+  border-radius: 1rem;
+  margin: 12px;
+  padding: 8px;
+}
