@@ -57,6 +57,7 @@
         </div>
         <!-- copy count -->
         <div
+          id="copy-count"
           class="bg-[#00a63e] w-[127px] h-[52px] rounded-[50px] flex justify-center items-center"
         >
           <h1 class=".inter-font text-white font-semibold">
@@ -67,15 +68,15 @@
     </nav>
     <!-- banner-section -->
     <section
-      class="w-full h-[239px] flex justify-center items-center flex-col"
+      class="w-full h-[280px] lg:h-[239px] flex justify-center items-center flex-col"
       style="background: linear-gradient(to right, #013223, #006747, #013223)"
     >
       <img class="w-[92px] h-[92px]" src="./logo-dark.png" alt="" />
-      <h1 class="font-bold text-[40px] text-center text-white">
+      <h1 class="text-[28px] lg:text-[40px] font-bold text-center text-white">
         Emergency Service Directory
       </h1>
       <p
-        class="font-semibold text-[20px] text-white text-center .hind-madurai-semibold"
+        class="font-semibold text-[16px] lg:text-[20px] text-white text-center .hind-madurai-semibold"
       >
         Government Emergency Services at Your Fingertip – A Project by
         Government of the People’s Republic of Bangladesh
@@ -83,10 +84,10 @@
     </section>
     <!-- hero section -->
     <section
-      class="bg-[#d9ecd9] w-full h-[950px] flex justify-between gap-2 p-5"
+      class="flex-col lg:flex-row bg-[#f5fff6] w-full h-[950px] flex justify-between gap-2 p-5"
     >
       <div
-        class="grid grid-cols-3 gap-6 w-[75%] sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-4"
+        class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full"
       >
         <!-- card-1 -->
         <div
@@ -119,7 +120,7 @@
           <div class="mt-15 flex gap-1">
             <button
               type="button"
-              class="border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
+              class="copy-btn border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
@@ -161,7 +162,7 @@
           <div class="mt-15 flex gap-1">
             <button
               type="button"
-              class="border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
+              class="copy-btn border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
@@ -203,7 +204,7 @@
           <div class="mt-15 flex gap-1">
             <button
               type="button"
-              class="border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
+              class="copy-btn border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
@@ -235,7 +236,9 @@
             <h1 class="font-bold text-[16px] mt-2">Ambulance Service</h1>
             <p>Ambulance</p>
             <div class="w-15 mt-4">
-              <h1 class="font-bold text-[30px] mt-3">999</h1>
+              <h1 class="font-bold text-[30px] whitespace-nowrap mt-3">
+                1994-999999
+              </h1>
               <p
                 class="bg-gray-200 inline px-3 text-[#5C5C5C] py-1 rounded-[16px]"
               >
@@ -246,7 +249,7 @@
           <div class="mt-15 flex gap-1">
             <button
               type="button"
-              class="border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
+              class="copy-btn border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
@@ -277,7 +280,7 @@
             <h1 class="font-bold text-[16px] mt-2">Women & Child Helpline</h1>
             <p>Women & Child Helpline</p>
             <div class="w-15 mt-4">
-              <h1 class="font-bold text-[30px] mt-3">999</h1>
+              <h1 class="font-bold text-[30px] mt-3">109</h1>
               <p
                 class="bg-gray-200 inline px-3 text-[#5C5C5C] py-1 rounded-[16px]"
               >
@@ -288,7 +291,7 @@
           <div class="mt-15 flex gap-1">
             <button
               type="button"
-              class="border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
+              class="copy-btn border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
@@ -319,7 +322,7 @@
             <h1 class="font-bold text-[16px] mt-2">Anti-Corruption Helpline</h1>
             <p>Anti-Corruption</p>
             <div class="w-15 mt-4">
-              <h1 class="font-bold text-[30px] mt-3">999</h1>
+              <h1 class="font-bold text-[30px] mt-3">106</h1>
               <p
                 class="bg-gray-200 inline px-3 text-[#5C5C5C] py-1 rounded-[16px]"
               >
@@ -330,7 +333,7 @@
           <div class="mt-15 flex gap-1">
             <button
               type="button"
-              class="border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
+              class="copy-btn border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
@@ -361,7 +364,7 @@
             <h1 class="font-bold text-[16px] mt-2">Electricity Helpline</h1>
             <p>Electricity Outage</p>
             <div class="w-15 mt-4">
-              <h1 class="font-bold text-[30px] mt-3">999</h1>
+              <h1 class="font-bold text-[30px] mt-3">16216</h1>
               <p
                 class="bg-gray-200 inline px-3 text-[#5C5C5C] py-1 rounded-[16px]"
               >
@@ -372,7 +375,7 @@
           <div class="mt-15 flex gap-1">
             <button
               type="button"
-              class="border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
+              class="copy-btn border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
@@ -403,7 +406,7 @@
             <h1 class="font-bold text-[16px] mt-2">Brac Helpline</h1>
             <p>Brac</p>
             <div class="w-15 mt-4">
-              <h1 class="font-bold text-[30px] mt-3">999</h1>
+              <h1 class="font-bold text-[30px] mt-3">16445</h1>
               <p
                 class="bg-gray-200 inline px-3 text-[#5C5C5C] py-1 rounded-[16px]"
               >
@@ -414,7 +417,7 @@
           <div class="mt-15 flex gap-1">
             <button
               type="button"
-              class="border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
+              class="copy-btn border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
@@ -447,7 +450,7 @@
             </h1>
             <p>Bangladesh Railway</p>
             <div class="w-15 mt-4">
-              <h1 class="font-bold text-[30px] mt-3">999</h1>
+              <h1 class="font-bold text-[30px] mt-3">163</h1>
               <p
                 class="bg-gray-200 inline px-3 text-[#5C5C5C] py-1 rounded-[16px]"
               >
@@ -458,7 +461,7 @@
           <div class="mt-15 flex gap-1">
             <button
               type="button"
-              class="border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
+              class="copy-btn border-2 border-gray-200 rounded-[8px] w-[140px] h-[35px] hover:bg-black hover:text-white transition-all duration-300"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
@@ -475,10 +478,10 @@
 
       <!-- history clear  section-->
 
-      <section class="h-[918px] bg-white rounded-2xl w-[25%]">
-        <div
-          class="rounded-2xl bg-[#f58544] flex items-center p-3 justify-between"
-        >
+      <section
+        class="w-full box-shadow h-[917px] bg-white rounded-2xl lg:w-[25%]"
+      >
+        <div class="flex items-center p-3 justify-between">
           <div class="flex gap-2">
             <span><i class="fa-regular fa-clock"></i></span>
             <p class="font-semibold">Call History</p>
@@ -492,7 +495,7 @@
             </button>
           </div>
         </div>
-        <div>
+        <div class="comment-parent">
           <div id="comment">
             <!-- <h1 class="font-bold">Fire Service Number</h1>
             <p>999</p> -->

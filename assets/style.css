@@ -8,9 +8,7 @@
   font-style: normal;
 }
 
-#comment {
-  background-color: rgb(238, 238, 238);
-  border-radius: 1rem;
-  margin: 12px;
-  padding: 8px;
+.card,
+.box-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
